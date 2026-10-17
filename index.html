@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Morgan | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Alex<span>Morgan</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-hello">Hello, I'm</p>
+          <h1>Alex Morgan</h1>
+          <h2 class="typed-wrap">I'm a <span id="typed"></span></h2>
+          <p class="hero-desc">
+            I build fast, accessible, and beautiful websites with modern
+            technologies. Passionate about clean code and great user experiences.
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-circle"></div>
+          <div class="hero-badge">&lt;/&gt;</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <h3>A developer who loves turning ideas into reality</h3>
+            <p>
+              With 5+ years of experience in web development, I specialize in
+              creating responsive, user-friendly applications. I enjoy working
+              across the stack, from pixel-perfect frontends to robust backends.
+            </p>
+            <p>
+              When I'm not coding, you'll find me contributing to open source,
+              writing tech blogs, or exploring the outdoors.
+            </p>
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          </div>
+          <div class="about-cards">
+            <div class="info-card">
+              <strong>50+</strong>
+              <span>Projects Completed</span>
+            </div>
+            <div class="info-card">
+              <strong>30+</strong>
+              <span>Happy Clients</span>
+            </div>
+            <div class="info-card">
+              <strong>5+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div class="info-card">
+              <strong>15+</strong>
+              <span>Technologies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <div class="skill-head"><span>HTML5 / CSS3</span><span>95%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="95"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>JavaScript</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="90"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>React</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="85"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>Node.js</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="80"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>Python</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="75"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>UI / UX Design</span><span>70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-level="70"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb thumb-1">🛒</div>
+            <div class="project-body">
+              <h3>E-Commerce Platform</h3>
+              <p>A full-stack shopping app with cart, payments, and admin dashboard.</p>
+              <div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Live Demo</a>
+                <a href="#" class="btn btn-small btn-outline">Source</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb thumb-2">🌤️</div>
+            <div class="project-body">
+              <h3>Weather Dashboard</h3>
+              <p>Real-time weather app with location search, forecasts, and charts.</p>
+              <div class="project-tags"><span>JavaScript</span><span>API</span><span>CSS</span></div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Live Demo</a>
+                <a href="#" class="btn btn-small btn-outline">Source</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb thumb-3">📝</div>
+            <div class="project-body">
+              <h3>Task Manager</h3>
+              <p>Kanban-style task tracker with drag-and-drop and team collaboration.</p>
+              <div class="project-tags"><span>Vue.js</span><span>Firebase</span></div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Live Demo</a>
+                <a href="#" class="btn btn-small btn-outline">Source</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb thumb-4">💬</div>
+            <div class="project-body">
+              <h3>Chat Application</h3>
+              <p>Real-time messaging app with rooms, typing indicators, and auth.</p>
+              <div class="project-tags"><span>Socket.io</span><span>Express</span><span>React</span></div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Live Demo</a>
+                <a href="#" class="btn btn-small btn-outline">Source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Let's work together</h3>
+            <p>I'm currently available for freelance projects and full-time opportunities. Feel free to reach out!</p>
+            <ul class="contact-list">
+              <li><span>📧</span> alex.morgan@email.com</li>
+              <li><span>📍</span> San Francisco, CA</li>
+              <li><span>💼</span> linkedin.com/in/alexmorgan</li>
+            </ul>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <input type="text" name="subject" placeholder="Subject" />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Alex Morgan. All rights reserved.</p>
+      <p>Built with HTML, CSS &amp; JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
